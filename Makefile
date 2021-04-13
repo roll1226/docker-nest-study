@@ -25,3 +25,6 @@ controller-create:
 	cd backend && nest g co ${name}
 service-create:
 	cd backend && nest g s ${name}
+
+mysql:
+	mycli -uroot -p -h127.0.0.1 -P 3306
